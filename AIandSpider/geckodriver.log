@@ -1,0 +1,46 @@
+1509554746860	geckodriver	INFO	geckodriver 0.19.0
+1509554746881	geckodriver	INFO	Listening on 127.0.0.1:57059
+1509554748971	mozrunner::runner	INFO	Running command: "F:\\software\\firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.cfauVhoYQBpt"
+1509554749579	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///F:/software/firefox/omni.ja!/components/addonManager.js:65
+1509554750843	Marionette	INFO	Enabled via --marionette
+[GPU 77800] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509554754896	Marionette	INFO	Listening on port 57067
+1509554754927	Marionette	INFO	Listening on port 57067
+1509554755274	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509554755366	Marionette	DEBUG	loaded listener.js
+1509554755483	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509554756441	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509554756442	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509554758831	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.taobao.com%2F"
+1509554761286	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.taobao.com%2F"
+JavaScript error: https://g.alicdn.com/vip/login/0.5.60/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+1509554770197	Marionette	DEBUG	Received DOM event "beforeunload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.taobao.com%2F"
+1509554770396	Marionette	DEBUG	Received DOM event "pagehide" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.taobao.com%2F"
+1509554770399	Marionette	DEBUG	Received DOM event "unload" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.taobao.com%2F"
+1509554770493	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1509554770666	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.taobao.com%2F"
+1509554771324	Marionette	DEBUG	Received DOM event "pageshow" for "https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.taobao.com%2F"
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fwww.taobao.com%2F"
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+https://www.taobao.com/"
+1509554362175	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
+1509554362176	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967308"
+1509554362178	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1509554362764	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://i.taobao.com/my_taobao.htm?spm=a21bo.2017.1997525045.1.794d1a0fqahQv9"
+1509554363253	Marionette	DEBUG	Received DOM event "pageshow" for "https://i.taobao.com/my_taobao.htm?spm=a21bo.2017.1997525045.1.794d1a0fqahQv9"
+1509554370808	Marionette	DEBUG	loaded listener.js
+JavaScript warning: https://g.alicdn.com/kissy/k/1.4.16/xtemplate/compiler-min.js, line 236: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+[Parent 54964] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+common/ipc_channel_win.cc, line 346
+[Parent 67792] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
